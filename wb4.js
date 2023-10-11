@@ -62,7 +62,6 @@ function renderCsokik() {
 }
 */
 let btn = document.getElementById("ujtermek");
-console.log(btn);
 
 btn.onclick = () => {
     let newFormHTML = `
@@ -95,11 +94,8 @@ btn.onclick = () => {
         event.preventDefault();
 
         let nev = event.target.elements.nev.value;
-        console.log(nev);
         let ara = event.target.elements.ara.value;
-        console.log(ara);
         let raktaron = event.target.elements.raktaron.checked;
-        console.log(raktaron); 
 
 //az új terméket hozzá is kell adni a tömbhöz
 
